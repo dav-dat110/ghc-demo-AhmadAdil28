@@ -1,0 +1,36 @@
+---
+title: "GHC Demo Assignment"
+subtitle: "CSC 110 - Fall 2025"
+author: "Muhammad Ahmad Adil"
+date: "October 12, 2025"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: solar
+  pdf: default
+---
+
+```{r}
+#| include: false
+
+library(tidyverse)
+```
+
+# Homework
+
+## Reflection
+
+```{r}
+#| fig-cap: "Figure 1"
+
+ggplot(mpg, aes(x = displ, y = hwy)) +
+  geom_point(color = "blue") +
+  labs(
+    title = "Engine Displacement vs. Highway Fuel Efficiency",
+    x = "Engine Size (Liters)",
+    y = "Highway MPG"
+  )
+```
+
+
