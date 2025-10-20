@@ -19,6 +19,8 @@ library(tidyverse)
 
 # Homework
 
+hello
+
 ```{r}
 #| fig-cap: "Figure 1"
 
@@ -62,7 +64,7 @@ flowchart LR
 
 Homework
 
-{{< page break >}}
+{{< pagebreak >}}
 
 Reflection
 
